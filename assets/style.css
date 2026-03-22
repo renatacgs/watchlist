@@ -1,0 +1,152 @@
+/* assets/style.css - Versão Rosa Pastel */
+body { 
+    background: #fdf2f8; /* Rosa Pastel bem clarinho */
+    color: #475569; /* Cinza escuro para ler bem */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    display: flex; 
+    justify-content: center; 
+    padding: 40px; 
+    margin: 0;
+}
+
+.container { 
+    background: #ffffff; /* Fundo branco para o conteúdo destacar */
+    padding: 2.5rem; 
+    border-radius: 20px; 
+    border: 1px solid #fbcfe8; /* Borda rosa fina */
+    width: 480px; 
+    box-shadow: 0 10px 25px rgba(244, 114, 182, 0.1); /* Sombra rosa suave */
+}
+
+h2 { 
+    color: #db2777; /* Rosa Médio/Pink para títulos */
+    text-align: center; 
+    margin-bottom: 1.5rem;
+}
+
+h3 { 
+    color: #f472b6; /* Rosa claro para subtítulos */
+    text-align: center; 
+    margin-top: 2rem;
+}
+
+input, textarea { 
+    width: 100%; 
+    padding: 14px; 
+    margin: 10px 0; 
+    border-radius: 10px; 
+    border: 1px solid #f9a8d4; /* Borda rosa média */
+    background: #fff1f2; /* Fundo do input rosa bem claro */
+    color: #1e293b; 
+    box-sizing: border-box; 
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #db2777; /* Rosa Pink ao clicar */
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(219, 39, 119, 0.2);
+}
+
+button { 
+    width: 100%; 
+    padding: 14px; 
+    border-radius: 10px; 
+    border: none; 
+    cursor: pointer; 
+    font-weight: bold; 
+    font-size: 16px;
+    transition: 0.3s; 
+    margin-top: 15px; 
+    letter-spacing: 0.5px;
+}
+
+/* Botão Principal - Rosa Médio */
+.btn-primary { 
+    background: #ec4899; 
+    color: white; 
+}
+
+.btn-primary:hover { 
+    background: #db2777; /* Rosa Pink ao passar o mouse */
+}
+
+/* Botão Secundário - Rosa Claro */
+.btn-secondary { 
+    background: #f9a8d4; 
+    color: #831843; /* Texto vinho escuro */
+}
+
+.btn-secondary:hover { 
+    background: #f472b6;
+}
+
+/* Botão Excluir - Vermelho Pastel */
+.btn-delete { 
+    background: #fda4af; 
+    color: #881337; 
+    padding: 8px 15px; 
+    width: auto; 
+    font-size: 13px; 
+    margin-top: 0;
+}
+
+.btn-delete:hover {
+    background: #f43f5e;
+    color: white;
+}
+
+table { 
+    width: 100%; 
+    margin-top: 25px; 
+    border-collapse: collapse; 
+    border-radius: 10px;
+    overflow: hidden; /* Para a borda arredondada funcionar */
+    border: 1px solid #fbcfe8;
+}
+
+th {
+    background: #fdf2f8;
+    color: #db2777;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+th, td { 
+    border-bottom: 1px solid #fbcfe8; 
+    padding: 16px; 
+    text-align: left; 
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover td {
+    background: #fff1f2; /* Destaque ao passar o mouse na linha */
+}
+
+.logout { 
+    display: block; 
+    text-align: right; 
+    color: #db2777; 
+    text-decoration: none; 
+    font-size: 14px; 
+    margin-bottom: -10px; 
+    font-weight: 500;
+}
+
+.logout:hover {
+    text-decoration: underline;
+}
+
+/* Mensagens de feedback */
+p[style*="color: #ffa657"] {
+    color: #db2777 !important; /* Mudar cor da mensagem para rosa */
+    background: #fff1f2;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #f9a8d4;
+}
