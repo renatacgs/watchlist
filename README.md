@@ -1,4 +1,4 @@
-# Watchlist 🎬🌸
+# watchlist 🎬🌸
 
 Sistema de gerenciamento de filmes e séries desenvolvido em **PHP** com arquitetura **MVC**.
 
