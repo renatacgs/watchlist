@@ -1,7 +1,6 @@
-/* assets/style.css - Versão Rosa Pastel */
 body { 
-    background: #fdf2f8; /* Rosa Pastel bem clarinho */
-    color: #475569; /* Cinza escuro para ler bem */
+    background: #fdf2f8;
+    color: #475569; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     display: flex; 
     justify-content: center; 
@@ -10,22 +9,22 @@ body {
 }
 
 .container { 
-    background: #ffffff; /* Fundo branco para o conteúdo destacar */
+    background: #ffffff; 
     padding: 2.5rem; 
     border-radius: 20px; 
-    border: 1px solid #fbcfe8; /* Borda rosa fina */
+    border: 1px solid #fbcfe8; 
     width: 480px; 
-    box-shadow: 0 10px 25px rgba(244, 114, 182, 0.1); /* Sombra rosa suave */
+    box-shadow: 0 10px 25px rgba(244, 114, 182, 0.1); 
 }
 
 h2 { 
-    color: #db2777; /* Rosa Médio/Pink para títulos */
+    color: #db2777; 
     text-align: center; 
     margin-bottom: 1.5rem;
 }
 
 h3 { 
-    color: #f472b6; /* Rosa claro para subtítulos */
+    color: #f472b6; 
     text-align: center; 
     margin-top: 2rem;
 }
@@ -35,15 +34,15 @@ input, textarea {
     padding: 14px; 
     margin: 10px 0; 
     border-radius: 10px; 
-    border: 1px solid #f9a8d4; /* Borda rosa média */
-    background: #fff1f2; /* Fundo do input rosa bem claro */
+    border: 1px solid #f9a8d4; 
+    background: #fff1f2; 
     color: #1e293b; 
     box-sizing: border-box; 
     transition: 0.3s;
 }
 
 input:focus, textarea:focus {
-    border-color: #db2777; /* Rosa Pink ao clicar */
+    border-color: #db2777; 
     outline: none;
     box-shadow: 0 0 0 3px rgba(219, 39, 119, 0.2);
 }
@@ -61,27 +60,24 @@ button {
     letter-spacing: 0.5px;
 }
 
-/* Botão Principal - Rosa Médio */
 .btn-primary { 
     background: #ec4899; 
     color: white; 
 }
 
 .btn-primary:hover { 
-    background: #db2777; /* Rosa Pink ao passar o mouse */
+    background: #db2777; 
 }
 
-/* Botão Secundário - Rosa Claro */
 .btn-secondary { 
     background: #f9a8d4; 
-    color: #831843; /* Texto vinho escuro */
+    color: #831843;
 }
 
 .btn-secondary:hover { 
     background: #f472b6;
 }
 
-/* Botão Excluir - Vermelho Pastel */
 .btn-delete { 
     background: #fda4af; 
     color: #881337; 
@@ -101,7 +97,7 @@ table {
     margin-top: 25px; 
     border-collapse: collapse; 
     border-radius: 10px;
-    overflow: hidden; /* Para a borda arredondada funcionar */
+    overflow: hidden;
     border: 1px solid #fbcfe8;
 }
 
@@ -125,7 +121,7 @@ tr:last-child td {
 }
 
 tr:hover td {
-    background: #fff1f2; /* Destaque ao passar o mouse na linha */
+    background: #fff1f2;
 }
 
 .logout { 
@@ -142,9 +138,8 @@ tr:hover td {
     text-decoration: underline;
 }
 
-/* Mensagens de feedback */
 p[style*="color: #ffa657"] {
-    color: #db2777 !important; /* Mudar cor da mensagem para rosa */
+    color: #db2777 !important; 
     background: #fff1f2;
     padding: 10px;
     border-radius: 8px;
